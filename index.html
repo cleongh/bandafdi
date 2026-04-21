@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banda FdI · Facultad de Informática UCM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav class="navbar">
+    <div class="nav-logo">Banda<span>FdI</span></div>
+    <ul class="nav-links">
+      <li><a href="#sobre-nosotros">Nosotros</a></li>
+      <li><a href="#proximos">Próximos conciertos</a></li>
+      <li><a href="#pasados">Conciertos pasados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-sub">Facultad de Informática · UCM</p>
+      <h1 class="hero-title">Banda FdI</h1>
+      <p class="hero-tagline"></p>
+      <a href="#proximos" class="btn btn-primary">Ver próximos conciertos</a>
+    </div>
+    <!-- Placeholder para foto hero: reemplaza .hero con background-image en style.css -->
+  </header>
+
+  <!-- ░░ SOBRE NOSOTROS ░░ -->
+  <section id="sobre-nosotros" class="section section--dark">
+    <div class="container">
+      <h2 class="section-title">Sobre nosotros</h2>
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="banda.jpg" alt="Foto de la Banda FdI">
+        </div>
+        <div class="about-text">
+          <div class="members">
+            <h3>Miembros</h3>
+            <ul>
+              <li><span class="role">🎹 Piano</span> — Antonio Sánchez</li>
+              <li><span class="role">🎤 Voz</span> — Carlos León</li>
+              <li><span class="role">🎸 Bajo</span> — Daniel F. Casuso</li>
+              <li><span class="role">🎚️ Control de sonido</span> — Guille Jiménez</li>
+              <li><span class="role">🎸 Guitarra acústica</span> — Jaime Sánchez</li>
+              <li><span class="role">🎷 Saxo</span> — Javier "Javo" Muñoz</li>
+              <li><span class="role">🥁 Batería</span> — Javier Páez</li>
+              <li><span class="role">🎵 Clarinete</span> — JuanAn Clemente</li>
+              <li><span class="role">🎸 Guitarra eléctrica</span> — Manu Montenegro</li>
+              <li><span class="role">🎵 Clarinete</span> — María José "Majo" Gómez</li>
+              <li><span class="role">🎤 Voz y violín</span> — María Sachez</li>
+              <li><span class="role">🎸 Guitarra eléctrica</span> — Miky G. Zamalloa</li>
+              <li><span class="role">🎹 Piano</span> — Nacho Gómez</li>
+              <li><span class="role">🎷 Saxo</span> — Paco López Fraguas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PRÓXIMOS CONCIERTOS ░░ -->
+  <section id="proximos" class="section section--light">
+    <div class="container">
+      <h2 class="section-title">Próximos conciertos</h2>
+      <div class="concerts-grid">
+
+        <article class="concert-card concert-card--upcoming">
+          <div class="concert-date">
+            <span class="day">8</span>
+            <span class="month">MAY</span>
+            <span class="year">2026</span>
+          </div>
+          <div class="concert-info">
+            <h3>Terraza de la Facultad de Informática</h3>
+            <p class="venue">📍 Facultad de Informática, UCM</p>
+            <p class="concert-desc"></p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ CONCIERTOS PASADOS ░░ -->
+  <section id="pasados" class="section section--dark">
+    <div class="container">
+      <h2 class="section-title">Conciertos pasados</h2>
+      <div class="past-concerts-list">
+
+        <article class="past-concert">
+          <div class="past-date">
+            <span class="day">19</span>
+            <span class="month-year">DIC 2025</span>
+          </div>
+          <div class="past-info">
+            <h3>Concierto de Navidad</h3>
+            <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
+          </div>
+          <div class="past-photo">
+            <img src="navidad25.jpg" alt="Concierto de Navidad, diciembre 2025">
+          </div>
+        </article>
+
+        <article class="past-concert">
+          <div class="past-date">
+            <span class="day">3</span>
+            <span class="month-year">DIC 2025</span>
+          </div>
+          <div class="past-info">
+            <h3>Museo del Traje UCM</h3>
+            <p class="venue">📍 Museo del Traje, UCM</p>
+          </div>
+          <div class="past-photo">
+            <img src="museotraje25.jpg" alt="Concierto en el Museo del Traje, diciembre 2025">
+          </div>
+        </article>
+
+        <article class="past-concert">
+          <div class="past-date">
+            <span class="day">13</span>
+            <span class="month-year">NOV 2025</span>
+          </div>
+          <div class="past-info">
+            <h3>SciFdI</h3>
+            <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
+          </div>
+          <div class="past-photo">
+            <img src="scifdi25.jpg" alt="SciFdI, noviembre 2025">
+          </div>
+        </article>
+
+        <article class="past-concert">
+          <div class="past-date">
+            <span class="day">9</span>
+            <span class="month-year">MAY 2025</span>
+          </div>
+          <div class="past-info">
+            <h3>Cafetería de la Facultad de Informática</h3>
+            <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
+          </div>
+          <div class="past-photo">
+            <img src="mayo25.jpg" alt="Concierto mayo 2025">
+          </div>
+        </article>
+
+        <article class="past-concert">
+          <div class="past-date">
+            <span class="day">20</span>
+            <span class="month-year">DIC 2024</span>
+          </div>
+          <div class="past-info">
+            <h3>Concierto de Navidad</h3>
+            <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
+          </div>
+          <div class="past-photo">
+            <img src="navidad24.jpeg" alt="Concierto de Navidad, diciembre 2024">
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACTO ░░ -->
+  <section id="contacto" class="section section--accent">
+    <div class="container contact-container">
+      <h2 class="section-title">Contacto</h2>
+      <p>¿Quieres contratarnos, colaborar o simplemente decir algo? Escríbenos.</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">Instagram</a>
+        <a href="#" class="social-btn">YouTube</a>
+        <a href="mailto:cleon@ucm.es" class="social-btn">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <p>© 2026 Banda FdI · Facultad de Informática, UCM</p>
+  </footer>
+
+</body>
+</html>
