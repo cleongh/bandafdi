@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Banda FdI · Facultad de Informática UCM</title>
+  <title>C# · Banda Facultad de Informática UCM</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -13,26 +13,52 @@
 
   <!-- ░░ NAVBAR ░░ -->
   <nav class="navbar">
-    <div class="nav-logo">Banda<span>FdI</span></div>
-    <ul class="nav-links">
-      <li><a href="#sobre-nosotros">Nosotros</a></li>
-      <li><a href="#proximos">Próximos conciertos</a></li>
+    <div class="nav-logo">C# · Banda FdI</div>
+    <div class="nav-links-wrapper"><ul class="nav-links">
+        <li><a href="#proximos">Próximos conciertos</a></li>
+        <li><a href="#sobre-nosotros">Nosotros</a></li>
       <li><a href="#pasados">Conciertos pasados</a></li>
       <li><a href="#contacto">Contacto</a></li>
-    </ul>
+    </ul></div>
   </nav>
 
   <!-- ░░ HERO ░░ -->
   <header class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-sub">Facultad de Informática · UCM</p>
-      <h1 class="hero-title">Banda FdI</h1>
-      <p class="hero-tagline"></p>
+      <p class="hero-sub">Banda Facultad de Informática · UCM</p>
+      <h1 class="hero-title">C#</h1>
+
+      <!-- <p class="hero-tagline">Banda FdI</p> -->
       <a href="#proximos" class="btn btn-primary">Ver próximos conciertos</a>
     </div>
     <!-- Placeholder para foto hero: reemplaza .hero con background-image en style.css -->
   </header>
+
+    <!-- ░░ PRÓXIMOS CONCIERTOS ░░ -->
+  <section id="proximos" class="section section--light">
+    <div class="container">
+      <h2 class="section-title">Próximos conciertos</h2>
+      <div class="concerts-grid">
+
+        <article class="concert-card concert-card--upcoming">
+          <div class="concert-date">
+            <span class="day">8</span>
+            <span class="month">MAY</span>
+            <span class="year">2026</span>
+          </div>
+          <div class="concert-info">
+            <h3>Concierto fin de curso</h3>
+            <p class="venue">📍Terraza de la Facultad de Informática, UCM</p>
+            <p class="concert-desc"></p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
 
   <!-- ░░ SOBRE NOSOTROS ░░ -->
   <section id="sobre-nosotros" class="section section--dark">
@@ -40,7 +66,7 @@
       <h2 class="section-title">Sobre nosotros</h2>
       <div class="about-grid">
         <div class="about-photo">
-          <img src="banda.jpg" alt="Foto de la Banda FdI">
+          <img src="banda.jpg" alt="Foto de C#">
         </div>
         <div class="about-text">
           <div class="members">
@@ -67,29 +93,6 @@
     </div>
   </section>
 
-  <!-- ░░ PRÓXIMOS CONCIERTOS ░░ -->
-  <section id="proximos" class="section section--light">
-    <div class="container">
-      <h2 class="section-title">Próximos conciertos</h2>
-      <div class="concerts-grid">
-
-        <article class="concert-card concert-card--upcoming">
-          <div class="concert-date">
-            <span class="day">8</span>
-            <span class="month">MAY</span>
-            <span class="year">2026</span>
-          </div>
-          <div class="concert-info">
-            <h3>Terraza de la Facultad de Informática</h3>
-            <p class="venue">📍 Facultad de Informática, UCM</p>
-            <p class="concert-desc"></p>
-          </div>
-        </article>
-
-      </div>
-
-    </div>
-  </section>
 
   <!-- ░░ CONCIERTOS PASADOS ░░ -->
   <section id="pasados" class="section section--dark">
@@ -103,7 +106,7 @@
             <span class="month-year">DIC 2025</span>
           </div>
           <div class="past-info">
-            <h3>Concierto de Navidad</h3>
+            <h3>Concierto de Navidad 25</h3>
             <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
           </div>
           <div class="past-photo">
@@ -145,7 +148,7 @@
             <span class="month-year">MAY 2025</span>
           </div>
           <div class="past-info">
-            <h3>Cafetería de la Facultad de Informática</h3>
+            <h3>Fin de curso</h3>
             <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
           </div>
           <div class="past-photo">
@@ -159,7 +162,7 @@
             <span class="month-year">DIC 2024</span>
           </div>
           <div class="past-info">
-            <h3>Concierto de Navidad</h3>
+            <h3>Concierto de Navidad 24</h3>
             <p class="venue">📍 Cafetería de la Facultad de Informática, UCM</p>
           </div>
           <div class="past-photo">
@@ -186,7 +189,7 @@
 
   <!-- ░░ FOOTER ░░ -->
   <footer class="footer">
-    <p>© 2026 Banda FdI · Facultad de Informática, UCM</p>
+    <p>© 2026 C# - Banda FdI - UCM</p>
   </footer>
 
 </body>
