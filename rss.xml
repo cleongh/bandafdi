@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>C# · Banda FdI - Próximos conciertos</title>
+    <link>https://cleongh.github.io/bandafdi/</link>
+    <description>Próximos conciertos de C# · Banda de la Facultad de Informática de la UCM.</description>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 27 Jul 2026 16:34:21 GMT</lastBuildDate>
+    <item>
+      <title>Concierto Halloween - 30 de octubre de 2026</title>
+      <link>https://cleongh.github.io/bandafdi/#proximos</link>
+      <guid isPermaLink="false">bandafdi-concierto-halloween-2026</guid>
+      <description>30 de octubre de 2026. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description>
+    </item>
+    <item>
+      <title>SciFdI 2026 - noviembre de 2026</title>
+      <link>https://cleongh.github.io/bandafdi/#proximos</link>
+      <guid isPermaLink="false">bandafdi-scifdi-2026</guid>
+      <description>Noviembre de 2026, día por confirmar. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description>
+    </item>
+  </channel>
+</rss>
