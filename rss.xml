@@ -10,13 +10,13 @@
       <title>Concierto Halloween - 30 de octubre de 2026</title>
       <link>https://cleongh.github.io/bandafdi/#proximos</link>
       <guid isPermaLink="false">bandafdi-concierto-halloween-2026</guid>
-      <description>30 de octubre de 2026. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description>
+      <description>30 de octubre de 2026, 18:30. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description>
     </item>
-    <item>
-      <title>SciFdI 2026 - noviembre de 2026</title>
-      <link>https://cleongh.github.io/bandafdi/#proximos</link>
-      <guid isPermaLink="false">bandafdi-scifdi-2026</guid>
-      <description>Noviembre de 2026, día por confirmar. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description>
-    </item>
+    <!-- <item> -->
+    <!--   <title>SciFdI 2026 - noviembre de 2026</title> -->
+    <!--   <link>https://cleongh.github.io/bandafdi/#proximos</link> -->
+    <!--   <guid isPermaLink="false">bandafdi-scifdi-2026</guid> -->
+    <!--   <description>Noviembre de 2026, día por confirmar. Cafetería de la Facultad de Informática, UCM. Entrada gratuita y libre hasta completar el aforo.</description> -->
+    <!-- </item> -->
   </channel>
 </rss>
